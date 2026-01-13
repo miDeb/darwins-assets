@@ -1,0 +1,1 @@
+configurator-input:not(.is-invalid) error-message{display:none}configurator-dimension input:not(.is-invalid)+error-message{display:none}

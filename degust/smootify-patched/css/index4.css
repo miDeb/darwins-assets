@@ -1,0 +1,1 @@
+body:not(.has-cart-upsells) [condition=has-cart-upsells]{display:none}

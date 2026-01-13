@@ -1,0 +1,1 @@
+function o(r){const t=[window.location.pathname,r.toString()].filter(Boolean).join("?");window.history.replaceState(window.history.state,"",t)}function s(){const r=new URLSearchParams(window.location.search),t=Array.from(r.entries()),e=new Map;for(let[a,n]of t)e.has(a)?e.set(a,e.get(a)+","+n):e.set(a,n);return Array.from(e.entries())}export{s as p,o as u};
